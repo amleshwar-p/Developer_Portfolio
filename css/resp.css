@@ -1,0 +1,61 @@
+@media (max-width: 1120px)
+{
+    
+    ul{
+        display: none;
+    }
+    .touch{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .header{
+        width: 100%;
+    }
+    .posters{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .poster{
+        width: 100%;
+        align-items: center;
+    }
+    .poster-img{
+        width: 80vw;
+    }
+    .poster-desc{
+        padding-bottom: 40px;
+    }
+    .grey-desc{
+        flex-direction: column;
+    }
+    .left-desc{
+        width: 100%;
+    }
+    .right-desc{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 600px){
+    .firstpart{
+        padding: 10px 50px;
+    }
+    .greybox{
+        padding: 10px 50px;
+    }
+    .interested{
+        padding: 40px 50px;
+    }
+    .footer{
+        padding: 20px 50px;
+    }
+    .icons{
+        padding: 30px 5px;
+    }
+    .companies{
+        margin-top: 4rem;
+    }
+}
